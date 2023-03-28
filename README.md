@@ -48,7 +48,7 @@ terraform apply
 
 如果你是在其他域名服务商注册的域名（例如：GoDaddy，Google Domain），你需要将域名的Name Server指向AWS Route53。
 
-例如，如果你的AWS Region是`ap-northeast-1`，你需要到https://ap-northeast-1.console.aws.amazon.com/route53/v2/hostedzones，找到由Terraform创建的的zone。点击表格中你的Hosted zone name，进入Hosted zone详情页面。在页面上侧的Hosted zone details中找到Name servers，将这些Name servers设置到你的域名注册商。
+例如，如果你的AWS Region是`ap-northeast-1`，你需要到[https://ap-northeast-1.console.aws.amazon.com/route53/v2/hostedzones](https://ap-northeast-1.console.aws.amazon.com/route53/v2/hostedzones)，找到由Terraform创建的的zone。点击表格中你的Hosted zone name，进入Hosted zone详情页面。在页面上侧的Hosted zone details中找到Name servers，将这些Name servers设置到你的域名注册商。
 
 Name servers可能是这样的：
 
