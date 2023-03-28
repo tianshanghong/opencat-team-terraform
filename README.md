@@ -25,10 +25,10 @@ cp terraform.tfvars.example terraform.tfvars
 
 * aws_region 你的AWS Region，例如"ap-northeast-1"
 * private_key_path 设置你要使用的密钥的本地路径，例如"~/.ssh/my-key.pem"。如果没有密钥，请参考[创建密钥对 - Amazon Elastic Compute Cloud](https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/UserGuide/create-key-pairs.html#having-ec2-create-your-key-pair)。
-* key_name = "<your-key-name>" 你的密钥对的名称。例如"my-key"。
-* ec2_ami = "<your-ami-id>"  要采用的Amazon Machine Images (AMI)。例如，"ami-01a777eb1a2618535" (Ubuntu 22.04 TLS, ap-northeast-1, arm64)。
-* domain_name = "<your-domain-name>" 你要使用的域名，例如"example.com"。
-* sub_domain_name = "<your-sub-domain-name>"  你要使用的子域名，例如"gpt"（DNS将指向gpt.example.com）。
+* key_name 你的密钥对的名称。例如"my-key"。
+* ec2_ami 要采用的Amazon Machine Images (AMI)。例如，"ami-01a777eb1a2618535" (Ubuntu 22.04 TLS, ap-northeast-1, arm64)。
+* domain_name 你要使用的域名，例如"example.com"。
+* sub_domain_name 你要使用的子域名，例如"gpt"（DNS将指向gpt.example.com）。
 
 ### 初始化Terraform
 
