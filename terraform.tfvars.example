@@ -1,0 +1,6 @@
+aws_region = "<your-aws-region>"  # e.g. "ap-northeast-1"
+private_key_path = "<path-to-your-private-key>"  # e.g. "~/.ssh/my-key.pem"
+key_name = "<your-key-name>"  # e.g. "my-key"
+ec2_ami = "<your-ami-id>"  # e.g. "ami-01a777eb1a2618535" (Ubuntu 22.04 TLS, ap-northeast-1, arm64)
+domain_name = "<your-domain-name>"  # e.g. "example.com"
+sub_domain_name = "<your-sub-domain-name>"  # e.g. "gpt" (full dns record will be "gpt.example.com")
